@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watson AI Assistant | IBM Powered Chatbot</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-robot"></i>
+                <span>Watson<strong>Bot</strong></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Experience the Power of <span class="highlight">IBM Watson</span> AI</h1>
+            <p>Intelligent conversational AI that understands your needs. Our Watson-powered chatbot provides instant, accurate responses 24/7.</p>
+            <div class="hero-buttons">
+                <a href="#features" class="btn btn-primary">Explore Features</a>
+                <a href="#" class="btn btn-secondary" onclick="openChatbot()">Try Chatbot</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">99.9%</span>
+                    <span class="stat-label">Uptime</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">50ms</span>
+                    <span class="stat-label">Response Time</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Languages</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="chat-preview">
+                <div class="chat-header">
+                    <div class="chat-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="chat-info">
+                        <span class="chat-name">Watson Assistant</span>
+                        <span class="chat-status">Online</span>
+                    </div>
+                </div>
+                <div class="chat-messages">
+                    <div class="message bot">
+                        <p>Hello! I'm Watson, your AI assistant. How can I help you today?</p>
+                    </div>
+                    <div class="message user">
+                        <p>Tell me about your features</p>
+                    </div>
+                    <div class="message bot">
+                        <p>I can help with customer support, answer questions, and provide intelligent recommendations powered by IBM's AI technology!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="section-header">
+            <h2>Powerful <span class="highlight">Features</span></h2>
+            <p>Discover what makes our Watson-powered chatbot exceptional</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Natural Language Understanding</h3>
+                <p>Advanced NLU capabilities to understand context, intent, and sentiment in conversations.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3>Multi-Language Support</h3>
+                <p>Communicate with users in over 100 languages with accurate translation and understanding.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Enterprise Security</h3>
+                <p>Bank-grade security with end-to-end encryption and compliance with global standards.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Analytics Dashboard</h3>
+                <p>Gain insights from conversation analytics to improve customer experience.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-plug"></i>
+                </div>
+                <h3>Easy Integration</h3>
+                <p>Seamlessly integrate with your existing systems, CRM, and business applications.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <h3>24/7 Availability</h3>
+                <p>Always-on support ensuring your customers get help whenever they need it.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About <span class="highlight">Watson AI</span></h2>
+            <p>IBM Watson is one of the world's most advanced AI platforms, leveraging decades of IBM research in natural language processing, machine learning, and cognitive computing.</p>
+            <p>Our Watson-powered chatbot brings enterprise-grade AI capabilities to your business, helping you provide exceptional customer experiences while reducing operational costs.</p>
+            <div class="about-features">
+                <div class="about-feature">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Powered by IBM Cloud</span>
+                </div>
+                <div class="about-feature">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Machine Learning Enhanced</span>
+                </div>
+                <div class="about-feature">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Continuous Learning</span>
+                </div>
+                <div class="about-feature">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Customizable Responses</span>
+                </div>
+            </div>
+        </div>
+        <div class="about-image">
+            <div class="ibm-logo-container">
+                <i class="fas fa-cloud"></i>
+                <span>IBM Watson</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Get in <span class="highlight">Touch</span></h2>
+            <p>Have questions? We'd love to hear from you.</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>contact@watsonbot.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>IBM Cloud, Worldwide</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logo">
+                    <i class="fas fa-robot"></i>
+                    <span>Watson<strong>Bot</strong></span>
+                </div>
+                <p>Empowering businesses with intelligent AI conversations powered by IBM Watson technology.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 WatsonBot. Powered by IBM Watson Assistant.</p>
+        </div>
+    </footer>
+
+    <!-- Watson Assistant Web Chat Integration -->
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "6f368a2b-ca5a-460d-be1a-12025e268bb5",
+            region: "au-syd",
+            serviceInstanceID: "5991963c-9729-4f4a-831a-281a1fd73ece",
+            onLoad: async (instance) => { 
+                window.watsonAssistantChatInstance = instance;
+                await instance.render(); 
+            }
+        };
+
+        setTimeout(function(){
+            const script = document.createElement('script');
+            script.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + 
+                        (window.watsonAssistantChatOptions.clientVersion || 'latest') + 
+                        "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(script);
+        });
+    </script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
